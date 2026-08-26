@@ -1,0 +1,11 @@
+check (float(input("Please input a number: ")))
+
+def check (number):
+    if number > 0:
+        print (f"Number {number} is positive number")
+    elif number < 0:
+        print (f"Number {number} is negative number")
+    elif number == 0:
+        print (f"Number {number} is zero")
+
+ check (float(input("Please input a number: ")))
