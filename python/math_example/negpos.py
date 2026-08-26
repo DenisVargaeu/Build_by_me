@@ -1,4 +1,4 @@
-check (float(input("Please input a number: ")))
+
 
 def check (number):
     if number > 0:
